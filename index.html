@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="dashboard-container">
+    <header class="dashboard-header">
+        <h1>Hi Katie Pena</h1>
+    </header>
+
+    <div class="class-status">
+        <div class="class" id="class1">
+            <div class="class-name">Kelas 1</div>
+            <div class="status red">Cek Kondisi</div>
+        </div>
+        <div class="class" id="class2">
+            <div class="class-name">Kelas 2</div>
+            <div class="status yellow">Cek Kondisi</div>
+        </div>
+        <div class="class" id="class3">
+            <div class="class-name">Kelas 3</div>
+            <div class="status green">Cek Kondisi</div>
+        </div>
+        <div class="class" id="class4">
+            <div class="class-name">Kelas 4</div>
+            <div class="status red">Peringatan</div>
+        </div>
+        <div class="class" id="class5">
+            <div class="class-name">Kelas 5</div>
+            <div class="status green">Cek Kondisi</div>
+        </div>
+    </div>
+
+    <div class="sensor-data">
+        <h2>Data Sensor</h2>
+        <div class="sensor-chart">
+            <!-- Placeholder for chart -->
+        </div>
+        <div class="alert">
+            <p><strong>Peringatan</strong><br> Kelas 4 Terdeteksi Gas CO2 dan Kebisingan</p>
+        </div>
+        <div class="sensor-info">
+            <div class="sensor-item">
+                <i class="fa fa-thermometer-half"></i>
+                <span class="sensor-label">Suhu</span>
+                <span class="sensor-value">28.5°C</span>
+            </div>
+            <div class="sensor-item">
+                <i class="fa fa-tint"></i>
+                <span class="sensor-label">Kelembapan</span>
+                <span class="sensor-value">65%</span>
+            </div>
+            <div class="sensor-item">
+                <i class="fa fa-volume-up"></i>
+                <span class="sensor-label">Kebisingan</span>
+                <span class="sensor-value">78 dB</span>
+            </div>
+            <div class="sensor-item">
+                <i class="fa fa-sun-o"></i>
+                <span class="sensor-label">Intensitas Cahaya</span>
+                <span class="sensor-value">420 lux</span>
+            </div>
+        </div>
+        <div class="gas-info">
+            <div class="sensor-item">
+                <i class="fa fa-cloud"></i>
+                <span class="sensor-label">Asap</span>
+                <span class="sensor-value">12 ppm</span>
+            </div>
+            <div class="sensor-item">
+                <i class="fa fa-bug"></i>
+                <span class="sensor-label">Gas</span>
+                <span class="sensor-value">1450 ppm</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
