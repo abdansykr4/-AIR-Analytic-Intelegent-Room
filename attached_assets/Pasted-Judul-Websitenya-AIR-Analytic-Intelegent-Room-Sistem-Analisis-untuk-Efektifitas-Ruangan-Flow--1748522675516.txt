@@ -1,0 +1,54 @@
+Judul Websitenya
+(AIR) Analytic Intelegent Room
+Sistem Analisis untuk Efektifitas Ruangan
+
+Flow Websitenya
+a. Membuka Website
+Pengguna membuka website AIR melalui browser di perangkat desktop, laptop, atau mobile. Tampilan awal menampilkan dashboard utama dengan desain bersih dan intuitif.
+
+b. Login atau SignIn
+Pengguna perlu melakukan login/signin sebelum masuk ke dashboard sistem analisis kondisi ruangan
+Data pengguna terdiri dari (Username, Email, Role, dan Password); Login dengan Email dan Password
+
+c. Pilihan Ruangan AIR
+Pengguna bisa memilih ke berbagai ruangan yang sudah terintegrasi dengan sistem AIR. Data yang ditampilkan setiap ruangan bisa berbeda dan sistematisnya kurang lebih sama seperti point d-g selanjutnya.
+
+d. Melihat Kondisi Ruangan Saat Ini (Dashboard)
+Begitu halaman dimuat, pengguna langsung melihat status kondisi ruangan secara real-time. Tampilan ini menampilkan data seperti:
+Username pengguna yang sedang login
+Suhu (dalam °C)
+Kelembapan udara (%)
+Tingkat kebisingan (desibel)
+Intensitas cahaya (lux)
+Kualitas udara (misal: PM2.5, dalam satuan μg/m³)
+Semua data ditampilkan dengan satuan tertentu atau grafis dan indikator warna (hijau = nyaman, kuning = kurang nyaman, merah = tidak nyaman) agar mudah dipahami.
+e. Interaksi notifikasi
+Pengguna bisa mendapatkan notifikasi atau pengingat otomatis (contohnya: “Peringatan! Kualitas udara buruk selama 3 hari terakhir — periksa filter air purifier Anda.”).
+
+f. Membaca Analisis & Rekomendasi
+(misalnya: terdeteksi anomali “Ruangan saat ini terasa lembap dan kurang terang”).
+Di bawah grafik, pengguna melihat hasil analisis sistem Website juga menampilkan rekomendasi tindakan, seperti:
+“Buka jendela untuk sirkulasi udara.”
+“Tingkatkan pencahayaan dengan lampu tambahan.”
+“Nyalakan air purifier.”
+
+g. Riwayat Data (data historis)
+Pengguna dapat mengakses tab Riwayat untuk melihat tren kondisi ruangan dalam kurun waktu harian/mingguan. Ini membantu pengguna mengenali pola seperti kapan ruangan sering terasa tidak nyaman.
+
+
+Fitur
+- login atau registrasi,
+- Tampilan data lingkungan secara real-time,
+- User bisa memilih tampilan data ruangan tertentu, yang sudah teringrasi dengan sistem AIR.,
+- Pembaruan otomatis setiap interval tertentu tanpa perlu refresh manual,
+- Indikator visual kondisi ruangan (ikon dan warna status),
+- Rekomendasi otomatis berbasis hasil analisis sistem,
+- Grafik riwayat kondisi ruangan,
+- Notifikasi pengingat untuk perbaikan kualitas ruangan
+
+Machine Learning Stack
+- Menggunakan arsitektur TensorFlow untuk membangun model Machine Learning.,
+- Membuat kode sederhana untuk proses inferensi.,
+- Tidak menggunakan model yang sudah ada dari TensorFlow Hub dan sumber serupa.,
+- Tidak menggunakan model secara langsung dari layanan API seperti ChatGPT API, Gemini API, dll.,
+- Tidak menggunakan AutoML untuk membuat model AI diskriminatif (Vertex AI hanya diperbolehkan untuk kasus penggunaan AI Generatif).,
